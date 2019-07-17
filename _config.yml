@@ -33,7 +33,7 @@ site:
     url: ../images/logo.png
   title: Hexo # 页面title
   favicon: /favicon.png
-  board: <p>欢迎交流与分享经验!</p> # 站点公告
+  board: <p>Hello!</p> # 站点公告
   copyright: false # 底部版权信息
 
 # config
@@ -102,7 +102,7 @@ share:
 
 # Github
 github: 
-  username: cofess  # github username
+  username: hungdev  # github username
 
 # Comment
 # Gitment
@@ -186,20 +186,20 @@ profile:
   enabled: true # Whether to show profile bar
   avatar: images/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author: 昵称
-  author_title: Web Developer & Designer
-  author_description: 个人简介。
-  location: Shenzhen, China
-  follow: https://github.com/cofess
+  author: Cee
+  author_title: Mobile & Web Developer
+  author_description: Profile
+  location: Ha Noi, Viet Nam!
+  follow: https://github.com/hungdev
   # Social Links
   social:
     links:
-      github: https://github.com/cofess
-      weibo: http://weibo.com/cofess
-      twitter: https://twitter.com/iwebued
+      github: https://github.com/hungdev
+      weibo: http://weibo.com/hungdev
+      twitter: https://twitter.com/hungdev
       # facebook: /
       # dribbble: /
-      behance: https://www.behance.net/cofess
+      behance: https://www.behance.net/hungdev
       rss: atom.xml
     link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills 
@@ -213,11 +213,11 @@ profile:
     平面设计: ★★★☆☆
   # My Personal Links
   links:
-    Github: https://github.com/cofess
-    Blog: http://blog.cofess.com
-    微博: http://weibo.com/cofess
-    花瓣: http://huaban.com/cofess
-    Behance: https://www.behance.net/cofess
+    Github: https://github.com/hungdev
+    Blog: http://blog.hungvu.net
+    微博: http://weibo.com/hungdev
+    花瓣: http://huaban.com/hungdev
+    Behance: https://www.behance.net/hungdev
   # My Personal Labels
   labels:
     - 前端
@@ -232,5 +232,5 @@ profile:
       date: 2016
   # My Personal Projects
   projects:
-    cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
-    cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
+    hungdev/gulp-startpro: https://github.com/hungdev/gulp-startpro
+    hungdev/hexo-theme-pure: https://github.com/hungdev/hexo-theme-pure

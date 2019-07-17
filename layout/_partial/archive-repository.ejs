@@ -6,13 +6,13 @@
   <div class="article-body">
     <div class="repo-content">
       <div class="blankslate">
-        <p>正在加载...</p>
+        <p>Loading...</p>
       </div>
     </div>
   </div>
 </article>
 <% if (theme.comment.type && !is_home()) { %>
-  <%- partial('post/comment', {post: page}) %>
+<%- partial('post/comment', {post: page}) %>
 <% } %>
 
 <!--Github项模版-->
@@ -34,5 +34,5 @@
 </script>
 <!--获取失败模版-->
 <script type="text/template" id="error-template">
-  <h3>加载失败</h3><p>请刷新或稍后再试...</p>
+  <h3>Failed to load</h3><p>Please refresh or try again later...</p>
 </script>
