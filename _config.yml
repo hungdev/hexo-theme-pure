@@ -97,8 +97,9 @@ donate:
 # weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
 share:
   enable: true  # 是否启用分享
-  sites: weibo,qq,wechat,facebook,twitter  # PC端显示的分享图标
-  mobile_sites: weibo,qq,qzone  # 移动端显示的分享图标
+  # sites: weibo,qq,wechat,facebook,twitter  # PC端显示的分享图标
+  sites: facebook,twitter  # PC端显示的分享图标
+  # mobile_sites: weibo,qq,qzone  # 移动端显示的分享图标
 
 # Github
 github: 
@@ -195,36 +196,36 @@ profile:
   social:
     links:
       github: https://github.com/hungdev
-      weibo: http://weibo.com/hungdev
-      twitter: https://twitter.com/hungdev
-      # facebook: /
+      # weibo: http://weibo.com/hungdev
+      # twitter: https://twitter.com/hungdev
+      facebook: https://fb.com/hungvu.net
       # dribbble: /
-      behance: https://www.behance.net/hungdev
+      # behance: https://www.behance.net/hungdev
       rss: atom.xml
     link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills 
   skills:
     Git: ★★★☆☆
-    Gulp: ★★★☆☆
+    # Gulp: ★★★☆☆
     Javascript: ★★★☆☆
     HTML+CSS: ★★★☆☆
     Bootstrap: ★★★☆☆
-    ThinkPHP: ★★★☆☆
-    平面设计: ★★★☆☆
+    # ThinkPHP: ★★★☆☆
+    # 平面设计: ★★★☆☆
   # My Personal Links
   links:
     Github: https://github.com/hungdev
     Blog: http://blog.hungvu.net
-    微博: http://weibo.com/hungdev
-    花瓣: http://huaban.com/hungdev
-    Behance: https://www.behance.net/hungdev
+    # 微博: http://weibo.com/hungdev
+    # 花瓣: http://huaban.com/hungdev
+    # Behance: https://www.behance.net/hungdev
   # My Personal Labels
   labels:
-    - 前端
-    - 前端开发
-    - 前端重构
-    - Web前端
-    - 网页重构
+    # - 前端
+    # - 前端开发
+    # - 前端重构
+    # - Web前端
+    # - 网页重构
   # My Personal Works
   works:
     name:
@@ -232,5 +233,5 @@ profile:
       date: 2016
   # My Personal Projects
   projects:
-    hungdev/gulp-startpro: https://github.com/hungdev/gulp-startpro
-    hungdev/hexo-theme-pure: https://github.com/hungdev/hexo-theme-pure
+    # hungdev/gulp-startpro: https://github.com/hungdev/gulp-startpro
+    # hungdev/hexo-theme-pure: https://github.com/hungdev/hexo-theme-pure
